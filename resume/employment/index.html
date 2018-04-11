@@ -13,240 +13,235 @@
     <link rel="shortcut icon" type="image/png" href="../../icon.png"/>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 
   </head>
 
-  <body id="top">
+  <body id="top" class="themeBlue">
 
-    <div class="main">
-      <div class="wrapper">
-        <div class="cell">
+    <nav class="nav">
 
-          <div class="navIcon"><a href="../../#resume" class="back">&#8672;</a></div>
+      <p class="navIcon">
+        <a style="float:right" onclick="navClose()"><strong>&times;</strong></a>
+        <a href="../../#resume"><strong>&#8672;</strong></a>
+      </p>
 
-          <div class="bodyText themeBlue">
+      <br>
 
-            <section id="menu" class="bodyMenu">
+      <h1>Employment</h1>
 
-              <div>
-                <h3><a href="#ongoing">Ongoing</a></h3>
-                <a href="#second-stage">Second Stage</a><br>
-                <a href="#red-feather">Red Feather Studios</a><br>
-              </div>
+      <p id="sectionIDs">
+        <a href="#second-stage" onclick="navClose()"><span>Second Stage</span></a><br>
+        <a href="#red-feather-studios" onclick="navClose()"><span>Red Feather Studios</span></a><br>
+        <a href="#smarttix" onclick="navClose()"><span>SmartTix</span></a><br>
+        <a href="#24-hour-plays" onclick="navClose()"><span>The 24 Hour Plays</span></a><br>
+        <a href="#iridium-jazz-club" onclick="navClose()"><span>Iridium Jazz Club</span></a><br>
+        <a href="#argento-chamber-ensemble" onclick="navClose()"><span>Argento Chamber Ensemble</span></a><br>
+        <a href="#front-and-center" onclick="navClose()"><span>Front and Center</span></a><br>
+        <a href="#creative-environment-solutions-corp" onclick="navClose()"><span>CES</span></a><br>
+      </p>
 
-              <div>
-                <h3><a href="#summer-2017">Summer 2017</a></h3>
-                <a href="#smarttix">SmartTix</a><br>
-                <a href="#24-hour-plays">The 24 Hour Plays</a><br>
-              </div>
+      <br>
 
-              <div>
-                <h3><a href="#summer-2016">Summer 2016</a></h3>
-                <a href="#iridium">Iridium Jazz Club</a><br>
-                <a href="#argento">Argento Chamber Ensemble</a><br>
-                <a href="#front-and-center">Front and Center</a><br>
-              </div>
+      <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Gabriel Drozdov</p>
 
-              <div>
-                <h3><a href="#summer-2015">Summer 2015</a></h3>
-                <a href="#ces">Creative Environment Solutions Corp.</a><br>
-              </div>
+    </nav>
 
-            </section>
+    <div class="navBar">
+      <div class="menuIcon"><a href="../../#resume">&#8672;</a></div>
+      <div class="menuIcon"><a onclick="navOpen()">&#9776;</a></div>
+    </div>
 
-            <br>
+    <div class="body">
 
-            <div id="ongoing" class="sectionHeading"><a href="#ongoing">Ongoing</a></div>
+      <br>
 
-            <br>
+      <section id="second-stage" class="textBox">
+        <div class="textContent">
 
-            <section id="second-stage" class="textBox">
+          <h3>March 2017 - (ongoing) &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
+          <h1><a href="#second-stage"><span>Second Stage</span></a></h1>
+          <h2>Sound, Website, & Publicity Manager</h2>
 
-              <h3>March 2017 - (ongoing) &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
-              <h1><a href="#second-stage"><span>Second Stage</span></a></h1>
-              <h2>Sound, Website, & Publicity Manager</h2>
+          <p>
+            Sound specialist and ticket administrator for student productions. Website designer and manager.
+          </p>
 
-              <p>
-                Sound specialist and ticket administrator for student productions. Website designer and manager.
-              </p>
-
-              <p class="links">
-                <a href="http://www.2ndstage.org/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="red-feather" class="textBox">
-
-              <h3>September 2016 - (ongoing) &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
-              <h1><a href="#red-feather"><span>Red Feather Studios</span></a></h1>
-              <h2>Graphic Design & Administration</h2>
-
-              <p>
-                Programmed and implemented new website. Organizer for meetings and advisor for all group activities.
-              </p>
-
-              <p class="links">
-                <a href="http://www.rfstudios.org/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <div id="summer-2017" class="sectionHeading"><a href="#summer-2017">Summer 2017</a></div>
-
-            <br>
-
-            <section id="smarttix" class="textBox">
-
-              <h3>June - August 2017 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#smarttix"><span>SmartTix</span></a></h1>
-              <h2>Graphic Design Freelance</h2>
-
-              <p>
-                Drafted new marketing page in Bootstrap and oversaw development of company redesign.
-              </p>
-
-              <p class="links">
-                <a href="http://www.smarttix.com/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="24-hour-plays" class="textBox">
-
-              <h3>June - August 2017 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#24-hour-plays"><span>The 24 Hour Plays</span></a></h1>
-              <h2>Graphic Designer</h2>
-
-              <p>
-                Reworked website backend and completely redesigned website. Developed new branding design language and created numerous promotional materials.
-              </p>
-
-              <p class="links">
-                <a href="http://24hourplays.com/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <div id="summer-2016" class="sectionHeading"><a href="#summer-2016">Summer 2016</a></div>
-
-            <br>
-
-            <section id="iridium" class="textBox">
-
-              <h3>June 2016 - January 2017 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#iridium"><span>Iridium Jazz Club</span></a></h1>
-              <h2>Graphic Design & Administrative Intern</h2>
-
-              <p>
-                Designed numerous promotional materials. Expedited accounting process. Aided in daily operations.
-              </p>
-
-              <p class="links">
-                <a href="http://theiridium.com/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="argento" class="textBox">
-
-              <h3>June 2016 - August 2016 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#argento"><span>Argento Chamber Ensemble</span></a></h1>
-              <h2>Summer Intern</h2>
-
-              <p>
-                Produced promotional featurette. Organized footage of studio performance. Wrote material for newsletter.
-              </p>
-
-              <p class="links">
-                <a href="http://www.argentomusic.org/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="front-and-center" class="textBox">
-
-              <h3>June 2016 - August 2016 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#front-and-center"><span>Front And Center</span></a></h1>
-              <h2>Production Assistant</h2>
-
-              <p>
-                Coordinated catering for band and crew. Moderated audience members and administered tickets.
-              </p>
-
-              <p class="links">
-                <a href="http://www.frontandcenter.com/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <div id="summer-2015" class="sectionHeading"><a href="#summer-2015">Summer 2015</a></div>
-
-            <br>
-
-            <section id="ces" class="textBox">
-
-              <h3>June 2015 - August 2015 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#ces"><span>Creative Environment Solutions Corp.</span></a></h1>
-              <h2>Summer Intern</h2>
-
-              <p>
-                Proctored and graded tests. Administered educational materials. Migrated newsletter to MailChimp.
-              </p>
-
-              <p class="links">
-                <a href="http://www.cescenter.com/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-          </div>
-
-          <div class="navIcon"><a href="#top" class="up">&#8673;</a></div>
-
-          <div class="footer">
-            <p class="copyright">
-              ...this is Gabriel saying hi.<br>
-              I should be sleeping<br>
-              and it's dark and<br>
-              I'm working<br>
-              too late,<br>
-              but<br>
-              there's<br>
-              nothing I'd<br>
-              really rather be<br>
-              doing than what I am.<br>
-
-              <br>
-
-              Copyright &copy;
-              <script type="text/javascript">document.write(new Date().getFullYear());</script>
-              Gabriel Drozdov
-
-              <br><br>
-
-              <a href="#top" style="text-decoration:underline;">GO UP</a>
-            </p>
-          </div>
+          <p class="links">
+            <a href="http://www.2ndstage.org/" target="_blank">Visit website.</a>
+          </p>
 
         </div>
-      </div>
+      </section>
+
+      <br>
+
+      <section id="red-feather-studios" class="textBox">
+        <div class="textContent">
+
+          <h3>September 2016 - (ongoing) &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
+          <h1><a href="#red-feather-studios"><span>Red Feather Studios</span></a></h1>
+          <h2>Graphic Design & Administration</h2>
+
+          <p>
+            Programmed and implemented new website. Organizer for meetings and advisor for all group activities.
+          </p>
+
+          <p class="links">
+            <a href="http://www.rfstudios.org/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="smarttix" class="textBox">
+        <div class="textContent">
+
+          <h3>June - August 2017 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#smarttix"><span>SmartTix</span></a></h1>
+          <h2>Graphic Design Freelance</h2>
+
+          <p>
+            Drafted new marketing page in Bootstrap and oversaw development of company redesign.
+          </p>
+
+          <p class="links">
+            <a href="http://www.smarttix.com/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="24-hour-plays" class="textBox">
+        <div class="textContent">
+
+          <h3>June - August 2017 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#24-hour-plays"><span>The 24 Hour Plays</span></a></h1>
+          <h2>Graphic Designer</h2>
+
+          <p>
+            Reworked website backend and completely redesigned website. Developed new branding design language and created numerous promotional materials.
+          </p>
+
+          <p class="links">
+            <a href="http://24hourplays.com/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="iridium-jazz-club" class="textBox">
+        <div class="textContent">
+
+          <h3>June 2016 - January 2017 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#iridium-jazz-club"><span>Iridium Jazz Club</span></a></h1>
+          <h2>Graphic Design & Administrative Intern</h2>
+
+          <p>
+            Designed numerous promotional materials. Expedited accounting process. Aided in daily operations.
+          </p>
+
+          <p class="links">
+            <a href="http://theiridium.com/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="argento-chamber-ensemble" class="textBox">
+        <div class="textContent">
+
+          <h3>June 2016 - August 2016 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#argento-chamber-ensemble"><span>Argento Chamber Ensemble</span></a></h1>
+          <h2>Summer Intern</h2>
+
+          <p>
+            Produced promotional featurette. Organized footage of studio performance. Wrote material for newsletter.
+          </p>
+
+          <p class="links">
+            <a href="http://www.argentomusic.org/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="front-and-center" class="textBox">
+        <div class="textContent">
+
+          <h3>June 2016 - August 2016 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#front-and-center"><span>Front And Center</span></a></h1>
+          <h2>Production Assistant</h2>
+
+          <p>
+            Coordinated catering for band and crew. Moderated audience members and administered tickets.
+          </p>
+
+          <p class="links">
+            <a href="http://www.frontandcenter.com/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="creative-environment-solutions-corp" class="textBox">
+        <div class="textContent">
+
+          <h3>June 2015 - August 2015 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#creative-environment-solutions-corp"><span>Creative Environment Solutions Corp.</span></a></h1>
+          <h2>Summer Intern</h2>
+
+          <p>
+            Proctored and graded tests. Administered educational materials. Migrated newsletter to MailChimp.
+          </p>
+
+          <p class="links">
+            <a href="http://www.cescenter.com/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
     </div>
+
+    <footer>
+
+      <p class="copyright">
+        ...this is Gabriel saying hi.<br>
+        I should be sleeping<br>
+        and it's dark and<br>
+        I'm working<br>
+        too late,<br>
+        but<br>
+        there's<br>
+        nothing I'd<br>
+        really rather be<br>
+        doing than what I am.<br>
+
+        <br>
+
+        Copyright &copy;
+        <script type="text/javascript">document.write(new Date().getFullYear());</script>
+        Gabriel Drozdov
+      </p>
+
+      <a href="#top" class="upArr">&#8673;</a>
+
+    </footer>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

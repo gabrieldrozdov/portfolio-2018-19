@@ -13,332 +13,318 @@
     <link rel="shortcut icon" type="image/png" href="../../icon.png"/>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 
   </head>
 
-  <body id="top">
+  <body id="top" class="themeRed">
 
-    <div class="main">
-      <div class="wrapper">
-        <div class="cell">
+    <nav class="nav">
 
-          <div class="navIcon"><a href="../../#resume" class="back">&#8672;</a></div>
+      <p class="navIcon">
+        <a style="float:right" onclick="navClose()"><strong>&times;</strong></a>
+        <a href="../../#resume"><strong>&#8672;</strong></a>
+      </p>
 
-          <div class="bodyText themeBlue">
+      <br>
 
-            <section id="menu" class="bodyMenu">
+      <h1>Coursework</h1>
 
-              <div>
-                <h3><a href="#junior">Junior</a></h3>
-                <a href="#fall-2017">Fall 2017</a><br>
-              </div>
+      <p id="sectionIDs">
+        <a href="#fall-2017" onclick="navClose()"><span>Fall 2017</span></a><br>
+        <a href="#spring-2017" onclick="navClose()"><span>Spring 2017</span></a><br>
+        <a href="#fall-2016" onclick="navClose()"><span>Fall 2016</span></a><br>
+        <a href="#spring-2016" onclick="navClose()"><span>Spring 2016</span></a><br>
+        <a href="#fall-2015" onclick="navClose()"><span>Fall 2015</span></a><br>
+      </p>
 
-              <div>
-                <h3><a href="#sophomore">Sophomore</a></h3>
-                <a href="#spring-2017">Spring 2017</a><br>
-                <a href="#fall-2016">Fall 2016</a><br>
-              </div>
+      <br>
 
-              <div>
-                <h3><a href="#freshman">Freshman</a></h3>
-                <a href="#spring-2016">Spring 2016</a><br>
-                <a href="#fall-2015">Fall 2015</a><br>
-              </div>
+      <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Gabriel Drozdov</p>
 
-            </section>
+    </nav>
 
-            <br>
+    <div class="navBar">
+      <div class="menuIcon"><a href="../../#resume">&#8672;</a></div>
+      <div class="menuIcon"><a onclick="navOpen()">&#9776;</a></div>
+    </div>
 
-            <div id="junior" class="sectionHeading"><a href="#junior">Junior</a></div>
+    <div class="body">
 
-            <br>
+      <br>
 
-            <section id="fall-2017" class="textBox">
+      <section id="fall-2017" class="textBox">
+        <div class="textContent">
 
-              <h3>Junior &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
-              <h1><a href="#fall-2017"><span>Fall 2017</span></a></h1>
-              <h2>Cumulative GPA: 3.73</h3>
+          <h3>Junior &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
+          <h1><a href="#fall-2017"><span>Fall 2017</span></a></h1>
+          <h2><span>Cumulative GPA: 3.73</span></h3>
 
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>COMP 321: Design of Programming Languages</h2>
-                <p>Prof. James Lipton</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A-</h3>
-                <h2>MATH 221: Vectors and Matrices</h2>
-                <p>Prof. Wai Kiu Chan</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>MUSC 103: Materials and Design</h2>
-                <p>Prof. Roger Mathew Grant</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>MUSC 109: Introduction to Experimental Music</h2>
-                <p>Prof. Paula Matthusen</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A+</h3>
-                <h2>THEA 110: Drafting for Theatrical Design</h2>
-                <p>Prof. Calvin O'Malley Anderson</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 0.25 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: CR</h3>
-                <h2>THEA 329: Technical Practice</h2>
-                <p>Advisor: Prof. Rebecca Foster</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 0.50 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A+</h3>
-                <h2>THEA 435: Performance Practice in Design</h2>
-                <p>Advisor: Prof. Calvin O'Malley Anderson</p>
-              </div>
-            </section>
-
-            <br>
-
-            <div id="sophomore" class="sectionHeading"><a href="#sophomore">Sophomore</a></div>
-
-            <br>
-
-            <section id="spring-2017" class="textBox">
-
-              <h3>Sophomore &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
-              <h1><a href="#spring-2017"><span>Spring 2017</span></a></h1>
-              <h2>Cumulative GPA: 3.63</h2>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>ASTR 107: The Universe</h2>
-                <p>Prof. William Herbst</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: C+</h3>
-                <h2>COMP 301: Automata Theory and Formal Languages</h3>
-                <p>Prof. James Lipton</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>GOVT 296: Politics in Japan</h2>
-                <p>Prof. Mary Alice Haddad</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>THEA 316: Performance Studies</h2>
-                <p>Prof. Cláudia Tatinge Nascimento</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 0.50 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: CR</h3>
-                <h2>THEA 420: Sound Design as Component Media</h2>
-                <p>Anthony Dean</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 0.50 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: CR</h3>
-                <h2>THEA 435: Performance Practice in Design</h2>
-                <p>Advisor: Prof. Marcela Oteíza</p>
-              </div>
-
-            </section>
-
-            <br>
-
-            <section id="fall-2016" class="textBox">
-
-              <h3>Sophomore &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
-              <h1><a href="#fall-2016"><span>Fall 2016</span></a></h1>
-              <h2>Cumulative GPA: 3.64</h2>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: B+</h3>
-                <h2>COMP 212: Computer Science II</h2>
-                <p>Prof. Norman Danner</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>ENGL 281: Award-Winning Playwrights</h2>
-                <p>Prof. Rashida Shaw McMahon</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: B+</h3>
-                <h2>MATH 228: Discrete Mathematics</h2>
-                <p>Prof. David Pollack</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A-</h3>
-                <h2>THEA 203: Special Topics in Theater History</h2>
-                <p>Prof. Katherine Brewer Ball</p>
-              </div>
-
-            </section>
-
-            <br>
-
-            <div id="freshman" class="sectionHeading"><a href="#freshman">Freshman</a></div>
-
-            <br>
-
-            <section id="spring-2016" class="textBox">
-
-              <h3>Freshman &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
-              <h1><a href="#spring-2016"><span>Spring 2016</span></a></h1>
-              <h2>Cumulative GPA: 3.68</h2>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: B</h3>
-                <h2>COMP 211: Computer Science I</h2>
-                <p>Prof. Norman Danner</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: B+</h3>
-                <h2>ECON 101: Introduction to Economics</h2>
-                <p>Prof. Richard Grossman</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 0.25 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>QAC 155: Working with Python</h2>
-                <p>Prof. Pavel Oleinikov</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 0.50 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: CR</h3>
-                <h2>THEA 105: Performance Laboratory</h2>
-                <p>Prof. Rebecca Foster</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>THEA 245: Acting I</h2>
-                <p>Prof. Cláudia Tatinge Nascimento</p>
-              </div>
-
-            </section>
-
-            <br>
-
-            <section id="fall-2015" class="textBox">
-
-              <h3>Freshman &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
-              <h1><a href="#fall-2015"><span>Fall 2015</span></a></h1>
-              <h2>Cumulative GPA: 3.84</h2>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>ARHA 182: Arts of Imperial China</h2>
-                <p>Prof. Yun-Chiahn Chen Sena</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A-</h3>
-                <h2>ARHA 224: Italian Art and Architecture</h2>
-                <p>Prof. Nadja Aksamija</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A-</h3>
-                <h2>FILM 307: The Language Of Hollywood</h2>
-                <p>Prof. Scott Higgins</p>
-              </div>
-
-              <br>
-
-              <div class="textCard">
-                <h3>Credit: 1.00 &nbsp;&nbsp;|&nbsp;&nbsp; Grade: A</h3>
-                <h2>THEA 150: Plays and Performances</h2>
-                <p>Prof. Rebecca Foster</p>
-              </div>
-
-            </section>
-
+          <div class="textCard">
+            <h3>COMP 321 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. James Lipton</h3>
+            <h2>Design of Programming Languages</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
           </div>
 
-          <div class="navIcon"><a href="#top" class="up">&#8673;</a></div>
+          <div class="textCard">
+            <h3>MATH 221 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Wai Kiu Chan</h3>
+            <h2>Vectors and Matrices</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A-</span></h4>
+          </div>
 
-          <div class="footer">
-            <p class="copyright">
-              ...this is Gabriel saying hi.<br>
-              I should be sleeping<br>
-              and it's dark and<br>
-              I'm working<br>
-              too late,<br>
-              but<br>
-              there's<br>
-              nothing I'd<br>
-              really rather be<br>
-              doing than what I am.<br>
+          <div class="textCard">
+            <h3>MUSC 103 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Roger Mathew Grant</h3>
+            <h2>Materials and Design</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
 
-              <br>
+          <div class="textCard">
+            <h3>MUSC 109 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Paula Matthusen</h3>
+            <h2>Introduction to Experimental Music</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
 
-              Copyright &copy;
-              <script type="text/javascript">document.write(new Date().getFullYear());</script>
-              Gabriel Drozdov
+          <div class="textCard">
+            <h3>THEA 110 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Calvin O'Malley Anderson</h3>
+            <h2>Drafting for Theatrical Design</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A+</span></h4>
+          </div>
 
-              <br><br>
+          <div class="textCard">
+            <h3>THEA 329 &nbsp;&nbsp;|&nbsp;&nbsp; Advisor: Prof. Rebecca Foster</h3>
+            <h2>Technical Practice</h2>
+            <h4><span>Credit: 0.25</span><span>Grade: CR</span></h4>
+          </div>
 
-              <a href="#top" style="text-decoration:underline;">GO UP</a>
-            </p>
+          <div class="textCard">
+            <h3>THEA 435 &nbsp;&nbsp;|&nbsp;&nbsp; Advisor: Prof. Calvin O'Malley Anderson</h3>
+            <h2>Performance Practice in Design</h2>
+            <h4><span>Credit: 0.50</span><span>Grade: A+</span></h4>
           </div>
 
         </div>
-      </div>
+      </section>
+
+      <br>
+
+      <section id="spring-2017" class="textBox">
+        <div class="textContent">
+
+          <h3>Sophomore &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
+          <h1><a href="#spring-2017"><span>Spring 2017</span></a></h1>
+          <h2><span>Cumulative GPA: 3.63</span></h2>
+
+          <div class="textCard">
+            <h3>ASTR 107 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. William Herbst</h3>
+            <h2>The Universe</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>COMP 301 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. James Lipton</h3>
+            <h2>Automata Theory and Formal Languages</h3>
+            <h4><span>Credit: 1.00</span><span>Grade: C+</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>GOVT 296 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Mary Alice Haddad</h3>
+            <h2>Politics in Japan</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>THEA 316 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Cláudia Tatinge Nascimento</h3>
+            <h2>Performance Studies</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>THEA 420 &nbsp;&nbsp;|&nbsp;&nbsp; Anthony Dean</h3>
+            <h2>Sound Design as Component Media</h2>
+            <h4><span>Credit: 0.50</span><span>Grade: CR</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>THEA 435 &nbsp;&nbsp;|&nbsp;&nbsp; Advisor: Prof. Marcela Oteíza</h3>
+            <h2>Performance Practice in Design</h2>
+            <h4><span>Credit: 0.50</span><span>Grade: CR</span></h4>
+          </div>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="fall-2016" class="textBox">
+        <div class="textContent">
+
+          <h3>Sophomore &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
+          <h1><a href="#fall-2016"><span>Fall 2016</span></a></h1>
+          <h2><span>Cumulative GPA: 3.64</span></h2>
+
+          <div class="textCard">
+            <h3>COMP 212 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Norman Danner</h3>
+            <h2>Computer Science II</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: B+</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>ENGL 281 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Rashida Shaw McMahon</h3>
+            <h2>Award-Winning Playwrights</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>MATH 228 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. David Pollack</h3>
+            <h2>Discrete Mathematics</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: B+</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>THEA 203 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Katherine Brewer Ball</h3>
+            <h2>Special Topics in Theater History</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A-</span></h4>
+          </div>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="spring-2016" class="textBox">
+        <div class="textContent">
+
+          <h3>Freshman &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
+          <h1><a href="#spring-2016"><span>Spring 2016</span></a></h1>
+          <h2><span>Cumulative GPA: 3.68</span></h2>
+
+          <div class="textCard">
+            <h3>COMP 211 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Norman Danner</h3>
+            <h2>Computer Science I</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: B</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>ECON 101 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Richard Grossman</h3>
+            <h2>Introduction to Economics</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: B+</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>QAC 155 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Pavel Oleinikov</h3>
+            <h2>Working with Python</h2>
+            <h4><span>Credit: 0.25</span><span>Grade: A</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>THEA 105 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Rebecca Foster</h3>
+            <h2>Performance Laboratory</h2>
+            <h4><span>Credit: 0.50</span><span>Grade: CR</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>THEA 245 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Cláudia Tatinge Nascimento</h3>
+            <h2>Acting I</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="fall-2015" class="textBox">
+        <div class="textContent">
+
+          <h3>Freshman &nbsp;&nbsp;|&nbsp;&nbsp; Wesleyan University</h3>
+          <h1><a href="#fall-2015"><span>Fall 2015</span></a></h1>
+          <h2><span>Cumulative GPA: 3.84</span></h2>
+
+          <div class="textCard">
+            <h3>ARHA 182 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Yun-Chiahn Chen Sena</h3>
+            <h2>Arts of Imperial China</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>ARHA 224 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Nadja Aksamija</h3>
+            <h2>Italian Art and Architecture</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A-</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>FILM 307 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Scott Higgins</h3>
+            <h2>The Language Of Hollywood</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A-</span></h4>
+          </div>
+
+          <br>
+
+          <div class="textCard">
+            <h3>THEA 150 &nbsp;&nbsp;|&nbsp;&nbsp; Prof. Rebecca Foster</h3>
+            <h2>Plays and Performances</h2>
+            <h4><span>Credit: 1.00</span><span>Grade: A</span></h4>
+          </div>
+
+        </div>
+      </section>
+
+      <br>
+
     </div>
+
+    <footer>
+
+      <p class="copyright">
+        ...this is Gabriel saying hi.<br>
+        I should be sleeping<br>
+        and it's dark and<br>
+        I'm working<br>
+        too late,<br>
+        but<br>
+        there's<br>
+        nothing I'd<br>
+        really rather be<br>
+        doing than what I am.<br>
+
+        <br>
+
+        Copyright &copy;
+        <script type="text/javascript">document.write(new Date().getFullYear());</script>
+        Gabriel Drozdov
+      </p>
+
+      <a href="#top" class="upArr">&#8673;</a>
+
+    </footer>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

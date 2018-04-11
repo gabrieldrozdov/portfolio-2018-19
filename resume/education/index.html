@@ -13,232 +13,235 @@
     <link rel="shortcut icon" type="image/png" href="../../icon.png"/>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 
   </head>
 
-  <body id="top">
+  <body id="top" class="themeRed">
 
-    <div class="main">
-      <div class="wrapper">
-        <div class="cell">
+    <nav class="nav">
 
-          <div class="navIcon"><a href="../../#resume" class="back">&#8672;</a></div>
+      <p class="navIcon">
+        <a style="float:right" onclick="navClose()"><strong>&times;</strong></a>
+        <a href="../../#portfolio"><strong>&#8672;</strong></a>
+      </p>
 
-          <div class="bodyText themeBlue">
+      <br>
 
-            <section id="menu" class="bodyMenu">
+      <h1>Education</h1>
 
-              <div>
-                <h3><a href="#primary-education">Primary Education</a></h3>
-                <a href="#wesleyan">Wesleyan University</a><br>
-                <a href="#edgemont">Edgemont High School</a><br>
-              </div>
+      <p id="sectionIDs">
+        <a href="#wesleyan-university" onclick="navClose()"><span>Wesleyan University</span></a><br>
+        <a href="#edgemont-high-school" onclick="navClose()"><span>Edgemont High School</span></a><br>
+        <a href="#nyu-clive-davis" onclick="navClose()"><span>NYU Clive Davis Institute</span></a><br>
+        <a href="#school-of-visual-arts" onclick="navClose()"><span>School of Visual Arts</span></a><br>
+        <a href="#lagond-music-school" onclick="navClose()"><span>Lagond Music School</span></a><br>
+        <a href="#jacob-burns-media-arts-lab" onclick="navClose()"><span>Jacob Burns</span></a><br>
+        <a href="#hoff-barthelson-music-school" onclick="navClose()"><span>Hoff-Barthelson </span></a><br>
+        <a href="#music-conservatory-of-westchester" onclick="navClose()"><span>Westchester Music</span></a><br>
+      </p>
 
-              <div>
-                <h3><a href="#college-highschool">College-High School Programs</a></h3>
-                <a href="#nyu">NYU</a><br>
-                <a href="#sva">School of Visual Arts</a><br>
-              </div>
+      <br>
 
-              <div>
-                <h3><a href="#music-arts">Music and Arts Education</a></h3>
-                <a href="#lagond">Lagond Music School</a><br>
-                <a href="#jacob-burns">Jacob Burns Media Arts Lab</a><br>
-                <a href="#hoff-barthelson">Hoff-Barthelson Music School</a><br>
-                <a href="#hoff-barthelson">Music Conservatory of Westchester</a><br>
-              </div>
+      <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Gabriel Drozdov</p>
 
-            </section>
+    </nav>
 
-            <br>
+    <div class="navBar">
+      <div class="menuIcon"><a href="../../#portfolio">&#8672;</a></div>
+      <div class="menuIcon"><a onclick="navOpen()">&#9776;</a></div>
+    </div>
 
-            <div id="primary-education" class="sectionHeading"><a href="#primary-education">Primary Education</a></div>
+    <div class="body">
 
-            <br>
+      <br>
 
-            <section id="wesleyan" class="textBox">
+      <section id="wesleyan-university" class="textBox">
+        <div class="textContent">
 
-              <h3>Class of 2019 &nbsp;&nbsp;|&nbsp;&nbsp; Middletown, CT</h3>
-              <h1><a href="#wesleyan"><span>Wesleyan University</span></a></h1>
-              <h2>Bachelor of Arts; Computer Science & Theater</h2>
+          <h3>Class of 2019 &nbsp;&nbsp;|&nbsp;&nbsp; Middletown, CT</h3>
+          <h1><a href="#wesleyan-university"><span>Wesleyan University</span></a></h1>
+          <h2>Bachelor of Arts; Computer Science & Theater</h2>
 
-              <p>
-                Dean's List for Fall 2015. Worked on student-run organizations Second Stage (theater) and Blue Feather Studios (music).
-              </p>
+          <p>
+            Dean's List for Fall 2015. Worked on student-run organizations Second Stage (theater) and Blue Feather Studios (music).
+          </p>
 
-              <p class="links">
-                <a href="http://www.wesleyan.edu/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="edgemont" class="textBox">
-
-              <h3>Class of 2015 &nbsp;&nbsp;|&nbsp;&nbsp; Scarsdale, NY</h3>
-              <h1><a href="#edgemont"><span>Edgemont High School</span></a></h1>
-              <h2>Diploma</h2>
-
-              <p>
-                GPA: 5.19/6.00 (weighted). Pursued AP curriculum and Honors courses in European history, biology, chemistry, physics, and English.
-              </p>
-
-              <p class="links">
-                <a href="http://ehs.edgemont.org/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <div id="college-highschool" class="sectionHeading"><a href="#college-highschool">College-High School Programs</a></div>
-
-            <br>
-
-            <section id="nyu" class="textBox">
-
-              <h3>June - August 2014 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#nyu"><span>NYU Clive Davis Institute of Recorded Music</span></a></h1>
-              <h2>Summer High School</h2>
-
-              <p>
-                GPA: 4.0/4.0. Studied music production, business, and culture with several teachers over summer intensive. Learned advanced topics for music production and worked with a group to develop and record an original album of ten songs I composed, performed, and produced. Marketed group and released a music video.
-              </p>
-
-              <p class="links">
-                <a href="http://tisch.nyu.edu/clive-davis-institute" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="sva" class="textBox">
-
-              <h3>January - July 2013 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
-              <h1><a href="#sva"><span>School of Visual Arts</span></a></h1>
-              <h2>Screenwriting, Graphic Design, & Portfolio</h2>
-
-              <p>
-                Studied under Ariel Roman, Yego Moravia, George Siejka, and Mary Lee Grisanti. Learned fundamentals of vector-based design, drawing inspiration from photographs and real-world textures. Practiced figure drawing from live models at various time incremenets. Developed and workshopped a script for a short film over a summer intensive.
-              </p>
-
-              <p class="links">
-                <a href="http://www.sva.edu/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <div id="music-arts" class="sectionHeading"><a href="#music-arts">Music and Arts Education</a></div>
-
-            <br>
-
-            <section id="lagond" class="textBox">
-
-              <h3>September 2011 - May 2015 &nbsp;&nbsp;|&nbsp;&nbsp; Elmsford, NY</h3>
-              <h1><a href="#lagond"><span>Lagond Music School</span></a></h1>
-              <h2>Jazz Piano Performance & Jazz/Classical Composition</h2>
-
-              <p>
-                Studied under Rusty Cloud and Brian Landrus. Advanced through regimented jazz theory, with a focus on piano. Rehearsed solo and group-based improvisation. Composed for electronic and classical instruments using DAWs and sheet music. Additionally participated in summer program where I played piano and practiced jazz group performance.
-              </p>
-
-              <p class="links">
-                <a href="http://lagondmusic.org/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="jacob-burns" class="textBox">
-
-              <h3>September 2011 - May 2014 &nbsp;&nbsp;|&nbsp;&nbsp; Pleasantville, NY</h3>
-              <h1><a href="#jacob-burns"><span>Jacob Burns Media Arts Lab</span></a></h1>
-              <h2>Film & Animation</h2>
-
-              <p>
-                Studied under Gregory Lewis. Directed, wrote, and animated a stop-motion short film that was a finalist at Tribeca's "Our City, My Story."
-              </p>
-
-              <p class="links">
-                <a href="https://burnsfilmcenter.org/visit/media-arts-lab/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="hoff-barthelson" class="textBox">
-
-              <h3>2004 - 2011 &nbsp;&nbsp;|&nbsp;&nbsp; Scarsdale, NY</h3>
-              <h1><a href="#hoff-barthelson"><span>Hoff-Barthelson Music School</span></a></h1>
-              <h2>Violin Performance</h2>
-
-              <p>
-                Studied under Barbara Berg. Practiced classical violin and sight-reading, with performances at recitals and as part of string orchestra.
-              </p>
-
-              <p class="links">
-                <a href="http://www.hbms.org/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-            <br>
-
-            <section id="westchester-music-conservatory" class="textBox">
-
-              <h3>2002 - 2004 &nbsp;&nbsp;|&nbsp;&nbsp; White Plains, NY</h3>
-              <h1><a href="#westchester-music-conservatory"><span>Music Conservatory of Westchester</span></a></h1>
-              <h2>Violin Performance</h2>
-
-              <p>
-                Studied under Tatiana Longo. Learned violin essentials, such as finger positions, proper posture, and sight-reading.
-              </p>
-
-              <p class="links">
-                <a href="http://www.musicconservatory.org/" target="_blank" style="color:#F9DC5C">Visit website.</a><br>
-              </p>
-
-            </section>
-
-          </div>
-
-          <div class="navIcon"><a href="#top" class="up">&#8673;</a></div>
-
-          <div class="footer">
-            <p class="copyright">
-              ...this is Gabriel saying hi.<br>
-              I should be sleeping<br>
-              and it's dark and<br>
-              I'm working<br>
-              too late,<br>
-              but<br>
-              there's<br>
-              nothing I'd<br>
-              really rather be<br>
-              doing than what I am.<br>
-
-              <br>
-
-              Copyright &copy;
-              <script type="text/javascript">document.write(new Date().getFullYear());</script>
-              Gabriel Drozdov
-
-              <br><br>
-
-              <a href="#top" style="text-decoration:underline;">GO UP</a>
-            </p>
-          </div>
+          <p class="links">
+            <a href="http://www.wesleyan.edu/" target="_blank">Visit website.</a>
+          </p>
 
         </div>
-      </div>
+      </section>
+
+      <br>
+
+      <section id="edgemont-high-school" class="textBox">
+        <div class="textContent">
+
+          <h3>Class of 2015 &nbsp;&nbsp;|&nbsp;&nbsp; Scarsdale, NY</h3>
+          <h1><a href="#edgemont-high-school"><span>Edgemont High School</span></a></h1>
+          <h2>Diploma</h2>
+
+          <p>
+            GPA: 5.19/6.00 (weighted). Pursued AP curriculum and Honors courses in European history, biology, chemistry, physics, and English.
+          </p>
+
+          <p class="links">
+            <a href="http://ehs.edgemont.org/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="nyu-clive-davis" class="textBox">
+        <div class="textContent">
+
+          <h3>June - August 2014 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#nyu-clive-davis"><span>NYU Clive Davis Institute of Recorded Music</span></a></h1>
+          <h2>Summer High School</h2>
+
+          <p>
+            GPA: 4.0/4.0. Studied music production, business, and culture with several teachers over summer intensive. Learned advanced topics for music production and worked with a group to develop and record an original album of ten songs I composed, performed, and produced. Marketed group and released a music video.
+          </p>
+
+          <p class="links">
+            <a href="http://tisch.nyu.edu/clive-davis-institute" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="school-of-visual-arts" class="textBox">
+        <div class="textContent">
+
+          <h3>January - July 2013 &nbsp;&nbsp;|&nbsp;&nbsp; NYC</h3>
+          <h1><a href="#school-of-visual-arts"><span>School of Visual Arts</span></a></h1>
+          <h2>Screenwriting, Graphic Design, & Portfolio</h2>
+
+          <p>
+            Studied under Ariel Roman, Yego Moravia, George Siejka, and Mary Lee Grisanti. Learned fundamentals of vector-based design, drawing inspiration from photographs and real-world textures. Practiced figure drawing from live models at various time incremenets. Developed and workshopped a script for a short film over a summer intensive.
+          </p>
+
+          <p class="links">
+            <a href="http://www.sva.edu/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="lagond-music-school" class="textBox">
+        <div class="textContent">
+
+          <h3>September 2011 - May 2015 &nbsp;&nbsp;|&nbsp;&nbsp; Elmsford, NY</h3>
+          <h1><a href="#lagond-music-school"><span>Lagond Music School</span></a></h1>
+          <h2>Jazz Piano Performance & Jazz/Classical Composition</h2>
+
+          <p>
+            Studied under Rusty Cloud and Brian Landrus. Advanced through regimented jazz theory, with a focus on piano. Rehearsed solo and group-based improvisation. Composed for electronic and classical instruments using DAWs and sheet music. Additionally participated in summer program where I played piano and practiced jazz group performance.
+          </p>
+
+          <p class="links">
+            <a href="http://lagondmusic.org/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="jacob-burns-media-arts-lab" class="textBox">
+        <div class="textContent">
+
+          <h3>September 2011 - May 2014 &nbsp;&nbsp;|&nbsp;&nbsp; Pleasantville, NY</h3>
+          <h1><a href="#jacob-burns-media-arts-lab"><span>Jacob Burns Media Arts Lab</span></a></h1>
+          <h2>Film & Animation</h2>
+
+          <p>
+            Studied under Gregory Lewis. Directed, wrote, and animated a stop-motion short film that was a finalist at Tribeca's "Our City, My Story."
+          </p>
+
+          <p class="links">
+            <a href="https://burnsfilmcenter.org/visit/media-arts-lab/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="hoff-barthelson-music-school" class="textBox">
+        <div class="textContent">
+
+          <h3>2004 - 2011 &nbsp;&nbsp;|&nbsp;&nbsp; Scarsdale, NY</h3>
+          <h1><a href="#hoff-barthelson-music-school"><span>Hoff-Barthelson Music School</span></a></h1>
+          <h2>Violin Performance</h2>
+
+          <p>
+            Studied under Barbara Berg. Practiced classical violin and sight-reading, with performances at recitals and as part of string orchestra.
+          </p>
+
+          <p class="links">
+            <a href="http://www.hbms.org/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="music-conservatory-of-westchester" class="textBox">
+        <div class="textContent">
+
+          <h3>2002 - 2004 &nbsp;&nbsp;|&nbsp;&nbsp; White Plains, NY</h3>
+          <h1><a href="#music-conservatory-of-westchester"><span>Music Conservatory of Westchester</span></a></h1>
+          <h2>Violin Performance</h2>
+
+          <p>
+            Studied under Tatiana Longo. Learned violin essentials, such as finger positions, proper posture, and sight-reading.
+          </p>
+
+          <p class="links">
+            <a href="http://www.musicconservatory.org/" target="_blank">Visit website.</a>
+          </p>
+
+        </div>
+      </section>
+
+      <br>
+
     </div>
+
+    <footer>
+
+      <p class="copyright">
+        ...this is Gabriel saying hi.<br>
+        I should be sleeping<br>
+        and it's dark and<br>
+        I'm working<br>
+        too late,<br>
+        but<br>
+        there's<br>
+        nothing I'd<br>
+        really rather be<br>
+        doing than what I am.<br>
+
+        <br>
+
+        Copyright &copy;
+        <script type="text/javascript">document.write(new Date().getFullYear());</script>
+        Gabriel Drozdov
+      </p>
+
+      <a href="#top" class="upArr">&#8673;</a>
+
+    </footer>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

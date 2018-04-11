@@ -1,3 +1,5 @@
+// Image feature functions
+
 // Generate image focus div on image click
 $(".imageThumb img").click(function(){
 
@@ -12,9 +14,9 @@ $(".imageThumb img").click(function(){
   if (url.indexOf("#") > -1) { // Only cut URL if "#" is present
     var url = url.substring(0, url.indexOf("#"));
   };
-  var par = $($(this).parent()).parent().get(0).id, // Get section ID
-      imgID = title.replace(/ /g,"%20"); // Replace spaces with dashes in image title
-  window.location.href = url + "#" + par + "?" + "img=" + imgID; // Set new URL
+  var par = $($($(this).parent()).parent()).parent().get(0).id, // Get section ID
+      imgID = title.replace(/ /g,"_"); // Replace spaces with dashes in image title
+  window.location = url + "#" + par + "?" + "img=" + imgID; // Set new URL
 });
 
 // Section select function for changing textBox style
@@ -24,7 +26,7 @@ function sectionSelect(){
   var url = window.location.hash;
   if (url.indexOf("?") > -1) { // Only cut URL if "?" is present
     var imgSection = (url.substring(url.indexOf("#")+1, url.indexOf("?"))), // Image section and alt name
-        imgID = (url.substring(url.indexOf("img=")+4)).replace(/%20/g," "), // Image alt name
+        imgID = (url.substring(url.indexOf("img=")+4)).replace(/_/g," "), // Image alt name
         url = url.substring(0, url.indexOf("?")); // Everything before the image info
 
     // Build image focus div
@@ -40,7 +42,7 @@ function sectionSelect(){
             title = $(this).attr("alt"),
             desc = $(this).attr("data-desc"),
             par = $(this).parent().get(0).id,
-            parID = ($(this).parent()).parent().get(0).id;
+            parID = $($($(this).parent()).parent()).parent().get(0).id;
 
         // Writing HTML for image focus div
         $(".imageContainer").html(""); // Fix to close other image focus divs in other sections
@@ -67,12 +69,70 @@ function sectionSelect(){
   };
 };
 
-// Run sectionSelect on page load
+////////////////////////////////////////////////////////////////////////////////
+
+// Navigation functions
+
+// Show and hide navigation
+function navOpen(){
+  $(".nav").addClass("navShow");
+}
+
+function navClose(){
+  $(".nav").removeClass("navShow");
+}
+
+// Hide navigation on exterior mouse click
+$(document).mouseup(function(e){
+    var container = $(".nav");
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+      navClose();
+    }
+  }
+)
+
+// Navigation section highlight
+function sectionIDs(){
+  var x = window.location.hash;
+  if (window.location.href.indexOf(x) > 0) {
+    if (x.indexOf("?") > -1) { // Only cut URL if "?" is present
+      var x = x.substring(0, x.indexOf("?")); // Everything before the image info
+    }
+    $("#sectionIDs a").removeClass("navSelect");
+    $("#sectionIDs a[href='"+x+"']").addClass("navSelect");
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+// Run initialization functions on page load
 $(document).ready(sectionSelect());
-
-// Run sectionSelect whenever section changes
 jQuery(window).on("hashchange", sectionSelect);
+$(document).ready(sectionIDs());
+jQuery(window).on("hashchange", sectionIDs);
 
+////////////////////////////////////////////////////////////////////////////////
+
+// Smooth scroll
+var $root = $('html, body');
+
+$('a[href^="#"]').click(function() {
+  var href = $.attr(this, 'href');
+
+  $root.animate({
+    scrollTop: $(href).offset().top
+  }, 500, function () {
+    window.location.hash = href;
+  });
+
+  return false;
+});
+
+////////////////////////////////////////////////////////////////////////////////
+
+// Old functions
+
+/*
 // Gradually change background color to black from gray
 $(window).on("scroll", function(){
   var s = $(window).scrollTop(),
@@ -89,3 +149,4 @@ $(window).on("scroll", function(){
 
   document.body.style.backgroundColor = "rgb("+scrollColor+","+scrollColor+","+scrollColor+")";
 })
+*/
