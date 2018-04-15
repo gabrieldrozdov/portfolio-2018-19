@@ -15,15 +15,23 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
   </head>
 
   <body id="top">
 
+    <div class="navBar">
+      <a class="fas fa-chevron-circle-left" href="../../#portfolio"></a>
+      <a class="fas fa-bars" onclick="navOpen()"></a>
+    </div>
+
     <nav class="nav">
 
       <p class="navIcon">
-        <a style="float:right" onclick="navClose()"><strong>&times;</strong></a>
-        <a href="../../#portfolio"><strong>&#8672;</strong></a>
+        <a class="fas fa-chevron-circle-left" href="../../#portfolio"></a>
+        <a class="fas fa-times-circle" style="margin-left:5px;" onclick="navClose()"></a>
       </p>
 
       <br>
@@ -45,11 +53,6 @@
       <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Gabriel Drozdov</p>
 
     </nav>
-
-    <div class="navBar">
-      <div class="menuIcon"><a href="../../#portfolio">&#8672;</a></div>
-      <div class="menuIcon"><a onclick="navOpen()">&#9776;</a></div>
-    </div>
 
     <div class="body">
 
@@ -171,21 +174,21 @@
 
       <br>
 
-      <section id="statue-seated-muse" class="textBox">
+      <section id="statue-of-a-seated-muse" class="textBox">
         <div class="textContent">
 
         <h3>2013 &nbsp;&nbsp;|&nbsp;&nbsp; Acrylic Painting</h3>
-        <h1><a href="#statue-seated-muse"><span>Statue of a Seated Muse</span></a></h1>
+        <h1><a href="#statue-of-a-seated-muse"><span>Statue of a Seated Muse</span></a></h1>
         <h2>11" x 14", Canvas</h2>
 
         <p>
           Portrait of eponymous statue in the Metropolitan Museum of Art in New York City.
         </p>
 
-        <p id="statue-seated-muse-photos" class="imageThumb">
+        <p id="statue-of-a-seated-muse-photos" class="imageThumb">
           <img src="media/2013-acrylic-sm-statueseatedmuse.jpg" data-src="media/2013-acrylic-lg-statueseatedmuse.jpg" alt="Statue of a Seated Muse" data-desc="">
         </p>
-        <div class="statue-seated-muse-photos imageContainer"></div>
+        <div class="statue-of-a-seated-muse-photos imageContainer"></div>
 
         </div>
       </section>
@@ -236,7 +239,7 @@
         Gabriel Drozdov
       </p>
 
-      <a href="#top" class="upArr">&#8673;</a>
+      <a href="#top" class="upArr fas fa-chevron-circle-up"></a>
 
     </footer>
 

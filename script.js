@@ -46,7 +46,7 @@ function sectionSelect(){
 
         // Writing HTML for image focus div
         $(".imageContainer").html(""); // Fix to close other image focus divs in other sections
-        $("."+par).html('<div><a href="'+"#"+parID+'" class="imageBack">Close Image</a><h4>'+title+'</h4><p>'+desc+'</p><a href="'+source+'" target="_blank"><img src="'+source+'"/></a></div>');
+        $("."+par).html('<div><a href="'+"#"+parID+'" class="imageBack fas fa-times-circle"></a><h4>'+title+'</h4><p>'+desc+'</p><a href="'+source+'" target="_blank"><img src="'+source+'"/></a></div>');
 
         // Scroll to thumbnail section
         $("html, body").animate({

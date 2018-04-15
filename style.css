@@ -28,7 +28,7 @@ a{
   transition:all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 a:hover{
-  color:#877C87;
+  color:#424242;
   text-decoration:underline;
 }
 a:active{
@@ -84,13 +84,13 @@ h3{
   opacity:0.5;
 }
 .homeBlue:hover{
-  color:#234E7B;
+  color:#517190;
 }
 .homeBlue:active{
   color:#0D3B6B;
 }
 .homeRed:hover{
-  color:#AE242C;
+  color:#A4575B;
 }
 .homeRed:active{
   color:#87191B;
@@ -110,55 +110,50 @@ h3{
 
 /* Navigation bar */
 .navBar{
+  width:100vw;
+  padding:5px;
   position:fixed;
-  width:100%;
-  background-color:#212121;
   z-index:999;
-  opacity:0.9;
+  line-height:0px;
+  background-color:#212121;
   transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-.navBar:hover{
-  opacity:1;
-}
-.menuIcon{
-  float:left;
-  height:50px;
-  width:50px;
-  background-color:inherit;
-  transition:all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-.menuIcon:hover{
-  background-color:#FAFAFA;
-}
-.menuIcon a{
-  padding:16px;
+.navBar a{
+  text-align:center;
   text-decoration:none;
+  padding:12px;
+  width:14px;
+  font-size:14px;
+  border-radius:100px;
   color:#FAFAFA;
-  font-size:20px;
+  background-color:#424242;
   cursor:pointer;
   transition:all 0.3s cubic-bezier(.25,.8,.25,1);
 }
-.menuIcon a:hover{
-  color:#212121;
+.navBar a:hover{
+  color:#424242;
+  background-color:#FAFAFA;
+}
+.navBar a:active{
+  opacity:0.5;
 }
 
 /* Navigation menu */
 .nav{
-  height:100%;
-  width:200px;
-  padding-top:10px;
-  padding-left:50px;
-  padding-right:50px;
+  height:100vh;
+  width:250px;
+  padding-top:20px;
+  padding-left:30px;
+  padding-right:30px;
   position:fixed;
   z-index:1000;
   background-color:#212121;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition:all 0.7s cubic-bezier(.25,.8,.25,1);
   left:-300px;
   opacity:0;
   overflow-y:scroll;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .navShow{
   left:0;
@@ -193,28 +188,42 @@ h3{
   color:#E2E1E0;
 }
 .navIcon a{
-  font-size:20px;
+  padding:12px;
+  width:14px;
+  font-size:14px;
+  background-color:#424242;
+  border-radius:100px;
   cursor:pointer;
+  transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.navIcon a:hover{
+  color:#424242;
+  background-color:#FAFAFA;
 }
 .navSelect span{
+  color:#FAFAFA;
   background-color:#616161;
 }
 
 /* Text box */
 .textBox{
+  margin:auto;
   padding-left:20px;
   padding-right:20px;
   padding-top:60px;
   padding-bottom:60px;
-  background-color:rgba(250,250,250,0.5);
+  max-width:760px;
+  border-radius:3px;
+  background-color:#FAFAFA;
   transition:all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-.textBox:hover{
-  background-color:rgba(250,250,250,1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .textBox h1 a{
   color:#212121;
   text-decoration:none;
+}
+.textBox h1 a:hover{
+  color:#424242;
 }
 .textBox h2{
   font-size:12px;
@@ -243,9 +252,8 @@ h3{
   margin:auto;
 }
 .selectBox{
-  background-color:rgba(250,250,250,1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
 
 /** Nested text cards **/
 
@@ -348,11 +356,17 @@ h3{
   }
 }
 .imageContainer .imageBack{
-  font-size:10px;
-  margin-top:0px;
-  margin-bottom:10px;
-  font-weight:bold;
-  text-transform:uppercase;
+  float:right;
+  font-size:14px;
+  padding:12px;
+  border:1px solid #E2E1E0;
+  border-radius:100px;
+  width:14px;
+  color:#212121;
+  text-decoration:none;
+}
+.imageContainer .imageBack:hover{
+  color:#616161;
 }
 .imageContainer h4{
   color:#212121;
@@ -394,9 +408,81 @@ footer{
   transition:all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .upArr:hover{
-  font-size:23px;
-  color:#212121;
   text-decoration:none;
+}
+
+/******************************************************************************/
+
+/** Red theme styles **/
+
+/* Links */
+.themeRed a{
+  color:#C69698;
+}
+.themeRed a:hover{
+  color:#A4575B;
+}
+.themeRed a:active{
+  color:#87191B;
+}
+.themeRed .links a{
+  color:#877C87;
+}
+.themeRed .links a:hover{
+  color:#87191B;
+  border:1px solid #A4575B;
+}
+.themeRed .links a:active{
+  color:#877C87;
+}
+.themeRed .textBox h1 a:hover{
+  color:#A4575B;
+}
+
+/* Navigation bar */
+.themeRed .navBar{
+  background-color:#87191B;
+}
+.themeRed .navBar a{
+  color:#E9D5D5;
+  background-color:#AA2833;
+}
+.themeRed .navBar a:hover{
+  color:#87191B;
+  background-color:#E9D5D5;
+}
+
+/* Navigation menu */
+.themeRed .nav{
+  background-color:#87191B;
+}
+.themeRed .nav span{
+  background-color:#A4575B;
+}
+.themeRed .nav span:hover{
+  background-color:#C69698;
+}
+.themeRed .nav p{
+  color:#E9D5D5;
+}
+.themeRed .nav a{
+  color:#E9D5D5;
+}
+.themeRed .nav a:hover{
+  color:#FAFAFA;
+}
+.themeRed .nav a:active{
+  color:#E9D5D5;
+}
+.themeRed .navIcon a{
+  background-color:#AA2833;
+}
+.themeRed .navIcon a:hover{
+  color:#AA2833;
+  background-color:#E9D5D5;
+}
+.themeRed .navSelect span{
+  background-color:#C69698;
 }
 
 /******************************************************************************/
@@ -405,10 +491,10 @@ footer{
 
 /* Links */
 .themeBlue a{
-  color:#234E7B;
+  color:#517190;
 }
 .themeBlue a:hover{
-  color:#74A5D6;
+  color:#92A5B9;
 }
 .themeBlue a:active{
   color:#0D3B6B;
@@ -423,22 +509,21 @@ footer{
 .themeBlue .links a:active{
   color:#877C87;
 }
+.themeBlue .textBox h1 a:hover{
+  color:#92A5B9;
+}
 
 /* Navigation bar */
 .themeBlue .navBar{
   background-color:#0D3B6B;
 }
-.themeBlue .menuIcon{
-  background-color:#0D3B6B;
+.themeBlue .navBar a{
+  color:#D3DBE4;
+  background-color:#517190;
 }
-.themeBlue .menuIcon:hover{
-  background-color:#C9DEF3;
-}
-.themeBlue .menuIcon a{
-  color:#C9DEF3;
-}
-.themeBlue .menuIcon a:hover{
-  color:#0D3B6B;
+.themeBlue .navBar a:hover{
+  color:#517190;
+  background-color:#D3DBE4;
 }
 
 /* Navigation menu */
@@ -446,91 +531,30 @@ footer{
   background-color:#0D3B6B;
 }
 .themeBlue .nav span{
-  background-color:#234E7B;
+  background-color:#517190;
 }
 .themeBlue .nav span:hover{
-  background-color:#74A5D6;
+  background-color:#92A5B9;
 }
 .themeBlue .nav p{
-  color:#C9DEF3;
+  color:#D3DBE4;
 }
 .themeBlue .nav a{
-  color:#C9DEF3;
+  color:#D3DBE4;
 }
 .themeBlue .nav a:hover{
   color:#FAFAFA;
 }
 .themeBlue .nav a:active{
-  color:#C9DEF3;
+  color:#D3DBE4;
+}
+.themeBlue .navIcon a{
+  background-color:#285077;
+}
+.themeBlue .navIcon a:hover{
+  color:#285077;
+  background-color:#D3DBE4;
 }
 .themeBlue .navSelect span{
-  background-color:#74A5D6;
-}
-
-/******************************************************************************/
-
-/** Red theme styles **/
-
-/* Links */
-.themeRed a{
-  color:#EC494C;
-}
-.themeRed a:hover{
-  color:#AE242C;
-}
-.themeRed a:active{
-  color:#87191B;
-}
-.themeRed .links a{
-  color:#877C87;
-}
-.themeRed .links a:hover{
-  color:#87191B;
-  border:1px solid #AE242C;
-}
-.themeRed .links a:active{
-  color:#877C87;
-}
-
-/* Navigation bar */
-.themeRed .navBar{
-  background-color:#87191B;
-}
-.themeRed .menuIcon{
-  background-color:#87191B;
-}
-.themeRed .menuIcon:hover{
-  background-color:#FA686A;
-}
-.themeRed .menuIcon a{
-  color:#FA686A;
-}
-.themeRed .menuIcon a:hover{
-  color:#87191B;
-}
-
-/* Navigation menu */
-.themeRed .nav{
-  background-color:#87191B;
-}
-.themeRed .nav span{
-  background-color:#AE242C;
-}
-.themeRed .nav span:hover{
-  background-color:#EC494C;
-}
-.themeRed .nav p{
-  color:#FA686A;
-}
-.themeRed .nav a{
-  color:#FA686A;
-}
-.themeRed .nav a:hover{
-  color:#FAFAFA;
-}
-.themeRed .nav a:active{
-  color:#FA686A;
-}
-.themeRed .navSelect span{
-  background-color:#EC494C;
+  background-color:#92A5B9;
 }

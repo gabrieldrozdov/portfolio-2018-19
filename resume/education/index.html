@@ -15,15 +15,23 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
   </head>
 
   <body id="top" class="themeRed">
 
+    <div class="navBar">
+      <a class="fas fa-chevron-circle-left" href="../../#resume"></a>
+      <a class="fas fa-bars" onclick="navOpen()"></a>
+    </div>
+
     <nav class="nav">
 
       <p class="navIcon">
-        <a style="float:right" onclick="navClose()"><strong>&times;</strong></a>
-        <a href="../../#portfolio"><strong>&#8672;</strong></a>
+        <a class="fas fa-chevron-circle-left" href="../../#resume"></a>
+        <a class="fas fa-times-circle" style="margin-left:5px;" onclick="navClose()"></a>
       </p>
 
       <br>
@@ -46,11 +54,6 @@
       <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Gabriel Drozdov</p>
 
     </nav>
-
-    <div class="navBar">
-      <div class="menuIcon"><a href="../../#portfolio">&#8672;</a></div>
-      <div class="menuIcon"><a onclick="navOpen()">&#9776;</a></div>
-    </div>
 
     <div class="body">
 
@@ -239,7 +242,7 @@
         Gabriel Drozdov
       </p>
 
-      <a href="#top" class="upArr">&#8673;</a>
+      <a href="#top" class="upArr fas fa-chevron-circle-up"></a>
 
     </footer>
 
