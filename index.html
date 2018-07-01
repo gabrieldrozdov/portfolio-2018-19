@@ -1,163 +1,316 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
   <head>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <meta name="description" content="Gabriel Drozdov is living and making things with sound and computers.">
-    <meta name="author" content="Gabriel Drozdov">
-    <meta name="keywords" content="Gabriel Drozdov,Sound Design,Web Design,Theater,Wesleyan">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Gabriel Drozdov | Hello</title>
-    <link rel="shortcut icon" type="image/png" href="icon.png"/>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-
+    <title>Gabriel Drozdov</title>
   </head>
+
+  <style>
+
+  /* Header animation */
+  @keyframes soundwave {
+    0% {
+      opacity:1;
+    }
+    100% {
+      transform:scale(10);
+      opacity:0;
+    }
+  }
+  .soundwave {
+    position:absolute;
+    margin-top:37vh;
+    height:23vh;
+    animation-name:soundwave;
+    animation-duration:2s;
+    opacity:0;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-out;
+  }
+  @keyframes woofer {
+    0% {
+      transform:scale(1);
+      opacity:0.5;
+    }
+    10% {
+      transform:scale(1.1);
+      opacity:1;
+    }
+    20% {
+      transform:scale(1);
+      opacity:0.9;
+    }
+    30% {
+      transform:scale(1.1);
+      opacity:1;
+    }
+    100%{
+      transform:scale(1);
+      opacity:0.5
+    }
+  }
+  .woofer {
+    animation-name:woofer;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    animation-delay:1s;
+    opacity:0.5;
+    position:absolute;
+    height:24vh;
+    margin-top:37vh;
+  }
+  @keyframes speaker {
+    0% {
+      transform:rotate(0deg) scale(1);
+      opacity:0.5;
+    }
+    8% {
+      transform:rotate(2deg) scale(1.1);
+    }
+    18% {
+      transform:rotate(-2deg) scale(1.2);
+      opacity:1;
+    }
+    28% {
+      transform:rotate(2deg) scale(1);
+    }
+    40% {
+      transform:rotate(0deg) scale(1);
+      opacity:0.75;
+    }
+    100% {
+      opacity:0.5;
+    }
+  }
+  .speaker {
+    opacity:0.5;
+    animation-name:speaker;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    animation-delay:1s;
+    height:60vh;
+    margin-top:15vh;
+  }
+
+  </style>
 
   <body>
 
-    <div class="body">
+    <div id="header" class="home-header">
 
-      <div class="navigation homeIcon">
-        <div class="textContent">
-          <p>
-            <a href="#">Home</a> &#9702;
-            <a id="portfolio-button" href="#portfolio">Portfolio</a> &#9702;
-            <a id="resume-button" href="#resume">Resume</a> &#9702;
-            <a id="follow-button" href="#follow">Follow</a> &#9702;
-            <a id="friends-button" href="#friends">Friends</a>
-          </p>
-        </div>
+      <div id="menu" style="position:absolute;width:100%;display:flex;background:linear-gradient(black,rgba(0,0,0,0));z-index:1000">
+        <a class="menu-item" href="#work"><img src="media/icons/pencilruler-white.svg" style="height:40px;"></a>
+        <a class="menu-item" href="#bio"><img src="media/icons/person-white.svg" style="height:40px;"></a>
+        <a class="menu-item" href="#theater"><img src="media/icons/soundwave-white.svg" style="height:40px;"></a>
+        <a class="menu-item" href="#music"><img src="media/icons/disc-white.svg" style="height:40px;"></a>
       </div>
 
-      <section id="menu" class="textBox">
-        <div class="textContent">
+      <div style="display:flex;justify-content:center;">
+        <img src="media/homepage/soundwave1.svg" class="soundwave" style="animation-delay:1.5s;">
+        <img src="media/homepage/soundwave2.svg" class="soundwave" style="animation-delay:1.7s;">
+        <img src="media/homepage/soundwave3.svg" class="soundwave" style="animation-delay:1.9s;">
+        <img src="media/homepage/woofer.svg" class="woofer">
+        <img src="media/homepage/speaker.svg" class="speaker">
+      </div>
 
-          <h1>Gabriel Drozdov</h1>
-          <h2>Web & Sound Designer</h2>
-
-          <p class="links">
-            <a href="mailto:gabrieldrozdov@gmail.com?subject=Hello%20from%20the%20website">Contact via Email</a>
-          </p>
-
-          <br>
-
-          <p class="copyright">
-            Copyright &copy;
-            <script type="text/javascript">document.write(new Date().getFullYear());</script>
-            Gabriel Drozdov
-          </p>
-
-        </div>
-      </section>
-
-      <section id="portfolio" class="textBox" style="display:none;">
-        <div class="textContent">
-
-          <h1>Portfolio</h1>
-
-          <p class="homeItems">
-            <a href="portfolio/sound-design" class="homeRed">Sound Design</a><br>
-            <a href="portfolio/music" class="homeRed">Music</a><br>
-            <a href="portfolio/web-design" class="homeBlue">Web Design</a><br>
-            <a href="portfolio/graphic-design" class="homeBlue">Graphic Design</a><br>
-          </p>
-
-          <p class="homeSub">
-            <a href="portfolio/fine-arts">Fine Arts</a><br>
-            <a href="portfolio/photography">Photography</a><br>
-            <a href="portfolio/film">Film</a><br>
-          </p>
-
-        </div>
-      </section>
-
-      <section id="resume" class="textBox" style="display:none;">
-        <div class="textContent">
-
-          <h1>Resume</h1>
-
-          <p class="homeItems">
-            <a href="resume/pdfs/DrozdovGabriel_CS_Resume.pdf">Computer Science</a><br>
-            <a href="resume/pdfs/DrozdovGabriel_Theater_Resume.pdf">Theater</a><br>
-            <a href="resume/pdfs/DrozdovGabriel_Sound_Resume.pdf">Sound</a><br>
-          </p>
-
-          <p class="homeSub">
-            <a href="resume/education" class="homeRed">Education</a><br>
-            <a href="resume/coursework" class="homeRed">Coursework</a><br>
-            <a href="resume/essays" class="homeRed">Essays</a><br>
-            <a href="resume/employment" class="homeBlue">Employment</a><br>
-          </p>
-
-        </div>
-      </section>
-
-      <section id="follow" class="textBox" style="display:none;">
-        <div class="textContent">
-
-          <h1>Follow</h1>
-          <p class="homeItems">
-            <a href="https://gabrieldrozdov.bandcamp.com/" target="_blank">Bandcamp</a><br>
-            <a href="https://www.behance.net/gabrieldrozdov" target="_blank">Behance</a><br>
-            <a href="https://github.com/gabrieldrozdov" target="_blank">Github</a><br>
-            <a href="https://www.instagram.com/gabrieldrozdov/" target="_blank">Instagram</a><br>
-            <a href="https://www.linkedin.com/in/gabriel-drozdov/" target="_blank">LinkedIn</a><br>
-            <a href="https://soundcloud.com/barcoloudly" target="_blank">SoundCloud</a><br>
-            <a href="https://twitter.com/barcoloudly" target="_blank">Twitter</a><br>
-          </p>
-
-        </div>
-      </section>
-
-      <section id="friends" class="textBox" style="display:none;">
-        <div class="textContent">
-
-          <h1>Friends</h1>
-          <p class="homeItems">
-            <a href="https://mrdrozdov.github.io/" target="_blank">Andrew Drozdov</a><br>
-            <a href="http://www.anthonydean.org/" target="_blank">Anthony Dean</a><br>
-            <a href="https://twitter.com/Caprinicus" target="_blank">Capri Gehred O'Connell</a><br>
-            <a href="http://www.bitterfilms.com/" target="_blank">Don Hertzfeldt</a><br>
-            <a href="http://number-none.com/blow/" target="_blank">Jonathan Blow</a><br>
-            <a href="friends/mau">Maddie Ulevich</a><br>
-            <a href="http://samueldrozdov.com/" target="_blank">Sam Drozdov</a><br>
-            <a href="https://www.increpare.com/" target="_blank">Stephen Lavelle</a><br>
-          </p>
-
-        </div>
-      </section>
-
-      <br>
+      <a id="slogan" class="black-block" href="#work">
+        <h1>Making great design more accessible.</h1>
+        <h4>Helping artists with graphic design, web design, and branding. <span style="text-decoration:underline;">See what I've done</span></h4>
+      </a>
 
     </div>
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div id="work" class="feature-block">
 
-    <script>
+      <a class="feature-item" href="https://www.dramatistsguild.com/" target="_blank">
+        <img src="media/features/pens-black.svg" class="feature-img">
+        <h1>The Dramatists Guild</h1>
+        <p>Membership & graphic design</p>
+      </a>
 
-    function sectionSelect(){
-      var x = window.location.hash;
-      if (window.location.href.indexOf(x) > 0) {
-        $("section").hide();
-        $(x).filter("section").show();
-        $(".navigation a").removeClass("menuSelect");
-        $(x + "-button").addClass("menuSelect");
-      } else {
-        $("section").hide();
-        $("#menu").show();
-      }
-    }
+      <a class="feature-item" href="http://24hourplays.com/" target="_blank">
+        <img src="media/features/stopwatch-black.svg" class="feature-img">
+        <h1>The 24 Hour Plays</h1>
+        <p>Branding & web design</p>
+      </a>
 
-    $(document).ready(sectionSelect());
+      <a class="feature-item" href="https://www.smarttix.com/" target="_blank">
+        <img src="media/features/tickets-black.svg" class="feature-img">
+        <h1>SmartTix</h1>
+        <p>Web design</p>
+      </a>
 
-    jQuery(window).on("hashchange", sectionSelect);
+      <a class="feature-item" href="http://www.2ndstage.org/" target="_blank">
+        <img src="media/features/sourcefour-black.svg" class="feature-img">
+        <h1>Second Stage</h1>
+        <p>Graphic, web, & sound design</p>
+      </a>
 
-    </script>
+      <a class="feature-item" href="http://www.rfstudios.org/" target="_blank">
+        <img src="media/features/akgc414-black.svg" class="feature-img">
+        <h1>Red Feather Studios</h1>
+        <p>Graphic & web design</p>
+      </a>
+
+      <a class="feature-item" href="https://theiridium.com/" target="_blank">
+        <img src="media/features/lespaul-black.svg" class="feature-img">
+        <h1>The Iridium / Front & Center</h1>
+        <p>Graphic design & administration</p>
+      </a>
+
+      <a class="feature-item" href="temp.html" target="_blank">
+        <img src="media/icons/arr-right.svg" style="width:40px;">
+        <h1>See all projects</h1>
+      </a>
+
+    </div>
+
+    <div id="bio" class="text-block">
+
+      <p style="line-height:1.5em;">
+
+        <img src="media/homgepage/dot1.svg" style="width:1em;"><br>
+        Hello! My name is Gabriel Drozdov. I'm a graphic, web, and sound designer double majoring in Computer Science and Theater at Wesleyan University. I also identify as a writer, composer, painter, video game enthusiast, organization freak, and digital proponent.
+
+        <br><br><br>
+
+        <img src="media/homgepage/dot2.svg" style="width:1em;"><br>
+        This summer, I'm working as the Membership & Creative Affairs intern at The Dramatists Guild. I'm providing technical assistance to our membership database and CRM, designing and developing a promotional video, and creating numerous graphic assets alongside a company style guide.
+
+        <br><br><br>
+
+        <img src="media/homgepage/dot3.svg" style="width:1em;"><br>
+        My current project is a senior thesis in theatrical sound design, <em>No Replica</em>. To develop this piece, I am completing numerous readings on theatrical sound design, performance studies, and experimental music/performance. In addition to the piece, I will write a 40-60 page scholarly paper.
+
+        <br><br><br>
+
+        <img src="media/homgepage/dot4.svg" style="width:1em;"><br>
+        Contact me at &lt;gabrieldrozdov (at) gmail (dot) com&gt; for business affairs, freelance work, song suggestions, or anything of the sort.
+
+      </p>
+
+    </div>
+
+    <div id="theater" class="flex-block" style="flex-wrap:wrap-reverse">
+
+      <div class="col-half" style="margin:53px 0 53px 0;">
+
+        <a class="list-item" href="temp.html" target="_blank">
+          <h4>Eurydice <span class="list-subtitle">Lighting designer</span></h4>
+        </a>
+
+        <a class="list-item" href="temp.html" target="_blank">
+          <h4>Rhinoceros <span class="list-subtitle">Sound designer, engineer, & composer</span></h4>
+        </a>
+
+        <a class="list-item" href="http://www.wesleyan.edu/cfa/events/2018/02-2018/02282013-99-histories.html" target="_blank">
+          <h4>99 Histories <span class="list-subtitle">Sound designer, engineer, & composer</span></h4>
+        </a>
+
+        <a class="list-item" href="http://www.wesleyan.edu/cfa/events/2017/11-2017/11162017-the-pillowman-by-martin-mcdonagh.html" target="_blank">
+          <h4>The Pillowman <span class="list-subtitle">Asst. sound designer</span></h4>
+        </a>
+
+        <a class="list-item" href="http://www.2ndstage.org/little-shop-of-horrors" target="_blank">
+          <h4>Little Shop of Horrors <span class="list-subtitle">Sound designer & engineer</span></h4>
+        </a>
+
+        <a class="list-item" href="temp.html" target="_blank">
+          <h4>An Intervention <span class="list-subtitle">Sound designer</span></h4>
+        </a>
+
+        <a class="list-item" href="http://www.wesleyan.edu/cfa/events/2017/03-2017/03072017thesis-theater-production-mnemonic.html" target="_blank">
+          <h4>Mnemonic <span class="list-subtitle">Sound designer</span></h4>
+        </a>
+
+        <a class="list-item" href="temp.html" style="line-height:0;">
+          <p><img src="media/icons/arr-right.svg" style="height:20px;"></p>
+        </a>
+
+      </div>
+
+      <div class="col-half" style="background-color:#F71E5D;">
+
+        <p class="text-block">
+          <img src="media/features/qu16-title.svg">
+        </p>
+
+      </div>
+
+    </div>
+
+    <div id="music" class="flex-block">
+
+      <div class="col-half" style="background-color:black;">
+
+        <p class="text-block">
+          <img src="media/features/recordplayer-title.svg">
+        </p>
+
+      </div>
+
+      <div class="col-half" style="margin:53px 0 53px 0;">
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/album/moonbug" target="_blank">
+          <h4>Moonbug <span class="list-subtitle">23 July 2017, 10 tracks</span></h4>
+        </a>
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/album/falling-in-love-to-voices" target="_blank">
+          <h4>Falling in Love to Voices <span class="list-subtitle">31 August 2016, 28 tracks</span></h4>
+        </a>
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/album/time-passes" target="_blank">
+          <h4>Time Passes <span class="list-subtitle">31 August 2016, 9 tracks (+1 bonus)</span></h4>
+        </a>
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/album/dano" target="_blank">
+          <h4>Dano <span class="list-subtitle">1 January 2015, 2 tracks</span></h4>
+        </a>
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/album/something-happens" target="_blank">
+          <h4>Something Happens <span class="list-subtitle">18 December 2014, 7 tracks</span></h4>
+        </a>
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/album/granola" target="_blank">
+          <h4>Granola <span class="list-subtitle">8 August 2014, 10 tracks</span></h4>
+        </a>
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/album/to-home" target="_blank">
+          <h4>To Home <span class="list-subtitle">19 May 2014, 18 tracks (+4 bonus)</span></h4>
+        </a>
+
+        <a class="list-item" href="https://gabrieldrozdov.bandcamp.com/" style="line-height:0;" target="_blank">
+          <p><img src="media/icons/arr-right.svg" style="height:20px;"></p>
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-block">
+
+      <p>
+        Copyright &copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
+        Gabriel Drozdov
+      </p>
+
+      <p style="text-align:right;">
+        <a href="mailto:gabrieldrozdov@gmail.com" class="footer-contact">Contact</a>
+      </p>
+
+    </div>
 
   </body>
+
+  <script src="script.js"></script>
+
 </html>
