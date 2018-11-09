@@ -15,6 +15,8 @@ body{
   padding:0;
   margin:0;
   font-family:"Basis Grotesque Mono", sans-serif;
+  -webkit-font-smoothing:subpixel-antialiased;
+  text-rendering:optimizeLegibility;
   font-size:18px;
   hyphens:auto;
   overflow-x:hidden;
@@ -208,10 +210,12 @@ a:active{
 .black-block:hover h1{
   text-decoration:underline;
   text-decoration-color:#F71E5D;
+  -webkit-text-decoration-color:#F71E5D;
 }
 .black-block:active h1{
   color:white;
   text-decoration-color:white;
+  -webkit-text-decoration-color:white;
 }
 .black-block h4{
   color:silver;
