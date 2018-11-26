@@ -310,6 +310,75 @@ a:active{
   background-color:black;
 }
 
+/* Write-up page and text styles */
+.page-header{
+  background-color:#F71E5D;
+}
+.page-header img{
+  max-height:60vh;
+  margin:60px;
+}
+.page-title{
+  background-color:black;
+  color:white;
+}
+.page-title h1{
+  color:#F71E5D;
+}
+.text-header{
+  background-color:black;
+  color:white;
+  padding:5px;
+}
+.text-span p{
+  line-height:1.5em;
+}
+.text-number{
+  font-family:"Basis Grotesque Off-White";
+  font-size:64px;
+  color:#F71E5D;
+}
+.divider{
+  background-image:linear-gradient(to right, white, #F71E5D, white);
+  padding-top:3px;
+  margin:0 40px 0 40px;
+}
+
+/* Image breaks */
+.img-break{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align:center;
+}
+.img-break a{
+  background-color:white;
+  padding:20px;
+  border:3px solid lightgray;
+  font-size:0;
+  text-decoration:none;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  transition-duration:100ms;
+  transition-timing-function:ease-in-out;
+}
+.img-break a:hover{
+  border:3px solid #F71E5D;
+}
+.img-break a:active{
+  border:3px solid black;
+}
+.img-break img{
+  max-width:100%;
+  max-height:600px;
+  flex-basis:100%;
+}
+.img-break p{
+  opacity:0.5;
+  flex-basis:100%;
+}
+
 /* Copyright */
 .footer-block{
   display:flex;
@@ -383,15 +452,6 @@ td{
 .row-header-important{
   background-color:#F71E5D;
   color:white;
-}
-
-/* Text styles */
-.text-header{
-  border:1px black solid;
-  padding:5px;
-}
-.text-span p{
-  line-height:1.5em;
 }
 
 /* Scroll override */
