@@ -20,6 +20,8 @@ body{
   font-size:18px;
   hyphens:auto;
   overflow-x:hidden;
+  letter-spacing:0.2px;
+  word-spacing:normal;
 }
 p{
   font-family:"Basis Grotesque Off-white", sans-serif;
@@ -239,6 +241,7 @@ a:active{
   transition-duration:100ms;
   transition-timing-function:ease-in-out;
   padding:30px;
+  hyphens:none;
 }
 .feature-item:hover{
   color:gray;
@@ -313,6 +316,7 @@ a:active{
 /* Write-up page and text styles */
 .page-header{
   background-color:#F71E5D;
+  text-align:center;
 }
 .page-header img{
   max-height:60vh;
