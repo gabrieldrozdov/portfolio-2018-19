@@ -40,7 +40,7 @@ a:active{
 }
 .link-alt{
   color:white;
-  text-decoration:underline;
+  text-decoration:none;
   transition-duration:50ms;
   transition-timing-function:ease-in-out;
 }
@@ -49,6 +49,10 @@ a:active{
 }
 .link-alt:active{
   opacity:0.5;
+}
+.link-alt img{
+  height:40px;
+  margin-right:10px;
 }
 .link-bold{
   border:1px solid #F71E5D;
@@ -241,7 +245,7 @@ a:active{
   transition-duration:100ms;
   transition-timing-function:ease-in-out;
   padding:30px;
-  hyphens:none;
+  hyphens:auto;
 }
 .feature-item:hover{
   color:gray;
