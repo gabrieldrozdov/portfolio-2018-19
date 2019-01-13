@@ -43,6 +43,8 @@ a:active{
   text-decoration:none;
   transition-duration:50ms;
   transition-timing-function:ease-in-out;
+  border-bottom:1px solid rgba(0,0,0,0);
+  margin-right:30px;
 }
 .link-alt:hover{
   opacity:0.8;
@@ -51,8 +53,7 @@ a:active{
   opacity:0.5;
 }
 .link-alt img{
-  height:40px;
-  margin-right:20px;
+  height:30px;
 }
 .link-bold{
   border:1px solid #F71E5D;
@@ -91,15 +92,27 @@ a:active{
 }
 
 /* Homepage header */
+.homepage-menu{
+  position:absolute;
+  width:100%;
+  display:flex;
+  background:linear-gradient(black,rgba(0,0,0,0));
+  z-index:1000;
+}
 .homepage-menu a{
+  padding-top:5px;
   flex:25%;
-  margin:4px;
-  padding:10px 5px 10px 5px;
   text-align:center;
   text-decoration:none;
 }
 .homepage-menu a:hover{
   border-bottom:1px solid white;
+}
+.homepage-menu a:active{
+  border-bottom:1px solid #F71E5D;
+}
+.homepage-menu img{
+  height:65px;
 }
 .homepage-header{
   height:100vh;

@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 360"><defs><style>.cls-1,.cls-4,.cls-6{fill:#fff;}.cls-1{opacity:0;}.cls-2{fill:#ee275e;}.cls-3,.cls-5{fill:none;}.cls-3,.cls-4{stroke:#ee275e;}.cls-3,.cls-4,.cls-5,.cls-6{stroke-miterlimit:10;stroke-width:3px;}.cls-5,.cls-6{stroke:#000;}</style></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" width="864" height="360"/><path class="cls-2" d="M296.47,216a80.8,80.8,0,0,0-26.85-60.23c-17.24-7-35.69-11.77-54.15-11.77s-36.91,4.74-54.15,11.77a81,81,0,0,0,0,120.46c17.24,7,35.69,11.77,54.15,11.77s36.91-4.74,54.15-11.77A80.8,80.8,0,0,0,296.47,216Z"/><path class="cls-3" d="M71.47,216s72-72,144-72,144,72,144,72-72,72-144,72S71.47,216,71.47,216Z"/><line class="cls-4" x1="109.82" y1="159.76" x2="36" y2="120.31"/><line class="cls-4" x1="178.33" y1="133.74" x2="146.05" y2="67.99"/><line class="cls-4" x1="252.48" y1="133.74" x2="285.02" y2="68"/><line class="cls-4" x1="320.98" y1="159.76" x2="395.08" y2="120.31"/><path d="M728.47,216a80.8,80.8,0,0,0-26.85-60.23c-17.24-7-35.69-11.77-54.15-11.77s-36.91,4.74-54.15,11.77a81,81,0,0,0,0,120.46c17.24,7,35.69,11.77,54.15,11.77s36.91-4.74,54.15-11.77A80.8,80.8,0,0,0,728.47,216Z"/><path class="cls-5" d="M503.47,216s72-72,144-72,144,72,144,72-72,72-144,72S503.47,216,503.47,216Z"/><line class="cls-6" x1="541.82" y1="159.76" x2="468" y2="120.31"/><line class="cls-6" x1="610.33" y1="133.74" x2="578.05" y2="67.99"/><line class="cls-6" x1="684.48" y1="133.74" x2="717.02" y2="68"/><line class="cls-6" x1="752.98" y1="159.76" x2="827.08" y2="120.31"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 864 360" style="enable-background:new 0 0 864 360;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EE275E;}
+	.st1{fill:none;stroke:#EE275E;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<title>Asset 1</title>
+<g>
+	<g id="Layer_1-2">
+		<path class="st0" d="M296.5,216c0-23-9.7-44.9-26.9-60.2c-17.2-7-35.7-11.8-54.1-11.8s-36.9,4.7-54.1,11.8
+			c-33.3,29.9-36,81.1-6.1,114.4c1.9,2.1,3.9,4.2,6.1,6.1c17.2,7,35.7,11.8,54.1,11.8s36.9-4.7,54.1-11.8
+			C286.7,260.9,296.5,239,296.5,216z"/>
+		<path class="st1" d="M71.5,216c0,0,72-72,144-72s144,72,144,72s-72,72-144,72S71.5,216,71.5,216z"/>
+		<line class="st1" x1="109.8" y1="159.8" x2="36" y2="120.3"/>
+		<line class="st1" x1="178.3" y1="133.7" x2="146.1" y2="68"/>
+		<line class="st1" x1="252.5" y1="133.7" x2="285" y2="68"/>
+		<line class="st1" x1="321" y1="159.8" x2="395.1" y2="120.3"/>
+		<path d="M728.5,216c0-23-9.7-44.9-26.8-60.2c-17.2-7-35.7-11.8-54.2-11.8s-36.9,4.7-54.2,11.8c-33.3,29.9-36,81.1-6.1,114.4
+			c1.9,2.1,3.9,4.2,6.1,6.1c17.2,7,35.7,11.8,54.2,11.8s36.9-4.7,54.2-11.8C718.7,260.9,728.5,239,728.5,216z"/>
+		<path class="st2" d="M503.5,216c0,0,72-72,144-72s144,72,144,72s-72,72-144,72S503.5,216,503.5,216z"/>
+		<line class="st2" x1="541.8" y1="159.8" x2="468" y2="120.3"/>
+		<line class="st2" x1="610.3" y1="133.7" x2="578" y2="68"/>
+		<line class="st2" x1="684.5" y1="133.7" x2="717" y2="68"/>
+		<line class="st2" x1="753" y1="159.8" x2="827.1" y2="120.3"/>
+	</g>
+</g>
+</svg>

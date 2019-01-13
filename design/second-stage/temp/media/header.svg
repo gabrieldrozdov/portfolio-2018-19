@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 469 469"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke:#000;}.cls-1,.cls-2{stroke-width:3px;}.cls-2{stroke:#fff;}.cls-3{stroke:#ee275e;}</style></defs><title>Second Stage</title><g id="Layer_2" data-name="Layer 2"><g id="Icons"><g id="Second_Stage" data-name="Second Stage"><g id="Second_Stage-2" data-name="Second Stage"><path class="cls-1" d="M57.89,220.27l34.49,34.5,40.29-40.29L213.12,134s17.25-17.25,34.49,0l17.25,17.25c17.25,17.25,0,34.5,0,34.5l-80.44,80.44-5.8,5.8a48.79,48.79,0,0,0,0,69h0l138-138a48.77,48.77,0,0,0,0-69h0L264.86,82.29h0a48.79,48.79,0,0,0-69,0Z"/><rect class="cls-1" x="194.64" y="282.12" width="243.92" height="48.78" transform="translate(-124.01 313.65) rotate(-45)"/><path class="cls-2" d="M48.91,211.27l34.49,34.5,40.29-40.29L204.14,125s17.25-17.25,34.49,0l17.25,17.25c17.25,17.25,0,34.5,0,34.5l-80.44,80.44-5.8,5.8a48.79,48.79,0,0,0,0,69h0l138-138a48.79,48.79,0,0,0,0-69h0L255.88,73.29h0a48.79,48.79,0,0,0-69,0Z"/><rect class="cls-2" x="185.67" y="273.12" width="243.92" height="48.78" transform="translate(-120.27 304.66) rotate(-45)"/></g><rect class="cls-3" x="0.5" y="0.5" width="468" height="468"/></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 469 469" style="enable-background:new 0 0 469 469;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<title>Second Stage</title>
+<g>
+	<g id="Icons">
+		<g id="Second_Stage">
+			<g id="Second_Stage-2">
+				<path class="st0" d="M57.9,220.3l34.5,34.5l40.3-40.3l80.4-80.5c0,0,17.2-17.2,34.5,0l17.2,17.2c17.2,17.2,0,34.5,0,34.5
+					l-80.4,80.4l-5.8,5.8c-19.1,19.1-19.1,49.9,0,69c0,0,0,0,0,0l0,0l138-138c19.1-19,19.1-49.9,0-69c0,0,0,0,0,0l0,0l-51.8-51.7
+					l0,0c-19.1-19.1-49.9-19.1-69,0c0,0,0,0,0,0L57.9,220.3z"/>
+				
+					<rect x="194.6" y="282.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -124.0104 313.6429)" class="st0" width="243.9" height="48.8"/>
+				<path class="st1" d="M48.9,211.3l34.5,34.5l40.3-40.3l80.4-80.5c0,0,17.2-17.2,34.5,0l17.2,17.2c17.2,17.2,0,34.5,0,34.5
+					l-80.4,80.4l-5.8,5.8c-19.1,19.1-19.1,49.9,0,69c0,0,0,0,0,0l0,0l138-138c19.1-19.1,19.1-49.9,0-69c0,0,0,0,0,0l0,0l-51.8-51.7
+					l0,0c-19.1-19.1-49.9-19.1-69,0c0,0,0,0,0,0L48.9,211.3z"/>
+				
+					<rect x="185.7" y="273.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -120.2648 304.6632)" class="st1" width="243.9" height="48.8"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
